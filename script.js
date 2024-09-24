@@ -20,10 +20,12 @@ function displayMovies(movies) {
     movieElement.classList.add("movie");
 
     movieElement.innerHTML = `
+    <div class="movie-results">
             <img src="${movie.Poster}" alt="${movie.Title}">
             <div class="movie-details">
                 <h2 class="movie-title">${movie.Title}</h2>
                 <p class="movie-year">${movie.Year}</p>
+            </div>
             </div>
         `;
     movieContainer.appendChild(movieElement);
