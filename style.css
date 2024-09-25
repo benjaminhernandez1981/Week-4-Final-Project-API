@@ -30,6 +30,7 @@ h1 {
 #movie-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .movie-results {
@@ -60,13 +61,14 @@ h1 {
 }
 
 .movie-title {
+  align-items: center;
   font-size: 16px;
+  width: 100%;
   margin: 0;
-  text-align: center;
-  
 }
 
 .movie-year {
+  width: 100%;
   color: #666;
   text-align: center;
 }

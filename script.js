@@ -21,10 +21,16 @@ function displayMovies(movies) {
 
     movieElement.innerHTML = `
     <div class="movie-results">
+    <div class="movie-img">
+    <div class="movie-title">
+    <div class="movie-year">
             <img src="${movie.Poster}" alt="${movie.Title}">
             <div class="movie-details">
                 <h2 class="movie-title">${movie.Title}</h2>
                 <p class="movie-year">${movie.Year}</p>
+            </div>
+            </div>
+            </div>
             </div>
             </div>
         `;
